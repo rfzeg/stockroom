@@ -4,9 +4,11 @@ material vrc/concrete
 	{
 		pass
 		{
-			ambient 0.5 0.5 0.5 1.0
-			diffuse 0.5 0.5 0.5 1.0
-			specular 0.2 0.2 0.2 1.0 12.5
+
+			ambient .8 .8 .8 1.000000
+            diffuse .5 .5 .5 1.000000
+            specular 1 1 1 5.00000 
+            emissive 0.01 0.01 0.01  1.000000
 
 			texture_unit
 			{

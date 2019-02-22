@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="heavy_duty_rack">
+    <static>true</static>
+    <link name="heavy_duty_rack_link">
+        <collision name="heavy_duty_rack_collision">  
+         <geometry>
+            <mesh>
+                <uri>model://heavy_duty_rack/meshes/model.dae</uri>
+                <scale>1.0 1.0 1.0</scale>
+            </mesh>
+        </geometry>
+      </collision>
+      
+      <visual name="heavy_duty_rack_mesh">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+            <mesh>
+                <uri>model://heavy_duty_rack/meshes/model.dae</uri>
+                <scale>1.0 1.0 1.0</scale>
+            </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
