@@ -1,0 +1,311 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
+
+    <!-- A global light source -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- A ground plane -->
+    <!-- 
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+     -->
+     
+    <!-- An concrete groundplane-->
+    <include>
+      <static>true</static>
+        <pose>0 0 0 0 0 0</pose>
+      <uri>model://concrete_plane</uri>
+    </include>
+    
+        <!-- A wall panel -->
+    <model name="wall_panels1">
+    <include>
+      <static>true</static>
+        <pose>-6 1 0.05 0 0 0</pose>
+      <uri>model://wall_panels</uri>
+    </include>
+      </model>
+    
+    <!-- A wall panel -->
+    <model name="wall_panels2">
+    <include>
+      <static>true</static>
+        <pose>1 1 0.05 0 0 0</pose>
+      <uri>model://wall_panels</uri>
+    </include>
+    </model>
+    
+    <!-- A wall panel -->
+    <model name="wall_panels3">
+    <include>
+      <static>true</static>
+        <pose>6 1 0.05 0 0 0</pose>
+      <uri>model://wall_panels</uri>
+    </include>
+    </model>
+    
+    
+   <!-- A wall panel -->
+    <model name="wall_panels4">
+    <include>
+      <static>true</static>
+        <pose>12 1 0.05 0 0 0</pose>
+      <uri>model://wall_panels</uri>
+    </include>
+      </model>
+    
+    <!-- A wall panel -->
+    <model name="wall_panels5">
+    <include>
+      <static>true</static>
+        <pose>-6 2 0.05 0 0 0</pose>
+      <uri>model://wall_panels</uri>
+    </include>
+    </model>
+    
+    <!-- A wall panel -->
+    <model name="wall_panels6">
+    <include>
+      <static>true</static>
+        <pose>1 2 0.05 0 0 0</pose>
+      <uri>model://wall_panels</uri>
+    </include>
+    </model>
+    
+       <!-- A wall panel -->
+    <model name="wall_panels7">
+    <include>
+      <static>true</static>
+        <pose>6 2 0.05 0 0 0</pose>
+      <uri>model://wall_panels</uri>
+    </include>
+      </model>
+    
+    <!-- A wall panel -->
+    <model name="wall_panels8">
+    <include>
+      <static>true</static>
+        <pose>12 2 0.05 0 0 0</pose>
+      <uri>model://wall_panels</uri>
+    </include>
+    </model>
+    
+    <!-- A wall panel -->
+    <model name="wall_panels9">
+    <include>
+      <static>true</static>
+        <pose>-6 3 0.05 0 0 0</pose>
+      <uri>model://wall_panels</uri>
+    </include>
+    </model>
+    
+    
+           <!-- A wall panel -->
+    <model name="wall_panels10">
+    <include>
+      <static>true</static>
+        <pose>1 3 0.05 0 0 0</pose>
+      <uri>model://wall_panels</uri>
+    </include>
+      </model>
+    
+    <!-- A wall panel -->
+    <model name="wall_panels11">
+    <include>
+      <static>true</static>
+        <pose>6 3 0.05 0 0 0</pose>
+      <uri>model://wall_panels</uri>
+    </include>
+    </model>
+    
+    <!-- A wall panel -->
+    <model name="wall_panels12">
+    <include>
+      <static>true</static>
+        <pose>12 3 0.05 0 0 0</pose>
+      <uri>model://wall_panels</uri>
+    </include>
+    </model>
+    
+        <!-- A wall panel -->
+    <model name="wall_panels13">
+    <include>
+      <static>true</static>
+        <pose>-6 4 0.05 0 0 0</pose>
+      <uri>model://wall_panels</uri>
+    </include>
+    </model>
+    
+    
+           <!-- A wall panel -->
+    <model name="wall_panels14">
+    <include>
+      <static>true</static>
+        <pose>1 4 0.05 0 0 0</pose>
+      <uri>model://wall_panels</uri>
+    </include>
+      </model>
+    
+    <!-- A wall panel -->
+    <model name="wall_panels15">
+    <include>
+      <static>true</static>
+        <pose>12 4 0.05 0 0 0</pose>
+      <uri>model://wall_panels</uri>
+    </include>
+    </model>
+    
+    <!-- A wall panel -->
+    <model name="wall_panels16">
+    <include>
+      <static>true</static>
+        <pose>12 4 0.05 0 0 0</pose>
+      <uri>model://wall_panels</uri>
+    </include>
+    </model>
+    
+       <!-- A roll up door -->
+    <include>
+      <static>true</static>
+        <pose>-5 -4 0.05 0 0 0</pose>
+      <uri>model://roll_up_door</uri>
+    </include>
+    
+    
+    
+    <!-- A heavy duty rack -->
+    <model name="heavy_duty_rack1">
+    <include>
+      <static>true</static>
+        <pose>-20 -10 0.06 0 0 0</pose>
+      <uri>model://heavy_duty_rack</uri>
+    </include>
+    </model>
+    
+        <!-- A heavy duty rack -->
+    <model name="heavy_duty_rack2">
+    <include>
+      <static>true</static>
+        <pose>-15 -15 0.06 0 0 0</pose>
+      <uri>model://heavy_duty_rack</uri>
+    </include>
+    </model>
+    
+            <!-- A heavy duty rack -->
+    <model name="heavy_duty_rack3">
+    <include>
+      <static>true</static>
+        <pose>-20 -20 0.06 0 0 0</pose>
+      <uri>model://heavy_duty_rack</uri>
+    </include>
+    </model>
+    
+    
+        <!-- A floor_R026_KXO -->
+    <include>
+      <static>true</static>
+        <pose>7 7 0.06 0 0 0</pose>
+      <uri>model://floor_R026_KXO</uri>
+      
+    </include>
+       
+        <!-- A guard rail -->
+    <model name="guard_rail1">
+    <include>
+      <static>true</static>
+        <pose>-2 -2 0.06 0 0 0</pose>
+      <uri>model://guard_rail</uri>
+    </include>
+     </model>
+    
+        <!-- A guard rail -->
+    <model name="guard_rail2">
+    <include>
+      <static>true</static>
+        <pose>-2 -3 0.06 0 0 0</pose>
+      <uri>model://guard_rail</uri>
+    </include>
+     </model>
+     
+             <!-- A guard rail -->
+    <model name="guard_rail3">
+    <include>
+      <static>true</static>
+        <pose>-2 -4 0.06 0 0 0</pose>
+      <uri>model://guard_rail</uri>
+    </include>
+     </model>
+    
+
+    
+        <!-- A skid_flat_stacked_boxes -->
+    <include>
+      <static>true</static>
+        <pose>-4 4 0.11 0 0 0</pose>
+      <uri>model://skid_flat_stacked_boxes</uri>
+    </include>
+    
+        <!-- A skid_udine_protective_shippers-->
+    <include>
+      <static>true</static>
+        <pose>4 -4 0.052 0 0 0</pose>
+      <uri>model://skid_udine_protective_shippers</uri>
+    </include>
+    
+        <!-- A skid_udine_sealers-->
+    <include>
+      <static>true</static>
+        <pose>-6 -6 0.052 0 0 0</pose>
+      <uri>model://skid_udine_sealers</uri>
+    </include>
+    
+        <!-- A skid_udine_silica -->
+    <include>
+      <static>true</static>
+        <pose>-6 -2 0.052 0 0 0</pose>
+      <uri>model://skid_udine_silica</uri>
+    </include>
+    
+        <!-- A skid_udine_stretch_wrap -->
+    <include>
+      <static>true</static>
+        <pose>-6 0 0.052 0 0 0</pose>
+      <uri>model://skid_udine_stretch_wrap</uri>
+    </include>
+    
+        <!-- A skid_warehouse_boxes-->
+    <include>
+      <static>true</static>
+         <pose>-6 -3 0.052 0 0 0</pose>
+      <uri>model://skid_warehouse_boxes</uri>
+    </include>
+    
+        <!-- A skid_udine_soap -->
+    <include>
+      <static>true</static>
+        <pose>-6 -4 0.052 0 0 0</pose>
+      <uri>model://skid_udine_soap</uri>
+    </include>
+    
+        <!-- A pallet stack -->
+    <include>
+      <static>true</static>
+        <pose>-6 -5 0.05 0 0 0</pose>
+      <uri>model://pallet_stack</uri>
+    </include>
+    
+        <!-- A group of wheelie bins-->
+    <include>
+      <static>true</static>
+        <pose>-7 -7 0.052 0 0 0</pose>
+      <uri>model://wheelie_bins</uri>
+    </include>
+    
+    
+    
+  </world>
+</sdf>
