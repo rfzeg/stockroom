@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="shelving_wall_unit_1">
+    <static>true</static>
+    <link name="rshelving_wall_unit_1_link">
+        <collision name="shelving_wall_unit_1_collision">  
+         <geometry>
+            <mesh>
+                <uri>model://shelving_wall_unit_1/meshes/model.dae</uri>
+                <scale>0.5 0.5 0.5</scale>
+            </mesh>
+        </geometry>
+      </collision>
+      
+      <visual name="shelving_wall_unit_1_mesh">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+            <mesh>
+                <uri>model://shelving_wall_unit_1/meshes/model.dae</uri>
+                <scale>0.5 0.5 0.5</scale>
+            </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
