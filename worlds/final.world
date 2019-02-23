@@ -1675,6 +1675,73 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
+
+    <!-- A desktop-->
+    <include>
+      <static>true</static>
+        <pose>0 0 0 0 0 0</pose>
+      <uri>model://desktop</uri>
+    </include>
+
+    <!-- A fire extinguisher -->
+    <include>
+      <static>true</static>
+        <pose>1 1 0 0 0 0</pose>
+      <uri>model://fire_extinguisher</uri>
+     </include>
+
+    <!-- A fire hose cabinet-->
+    <include>
+      <static>true</static>
+        <pose>2 2 0 0 0 0</pose>
+      <uri>model://fire_hose</uri>
+    </include>
+
+    <!-- A mobile wall-->
+    <include>
+      <static>true</static>
+        <pose>3 -3 0 0 0 0</pose>
+      <uri>model://mobile_wall</uri>
+    </include>
+
+
+    <!-- A packing_table -->
+    <include>
+      <static>true</static>
+        <pose>-2 1 0 0 0 0</pose>
+      <uri>model://packing_table</uri>
+    </include>
+
+    <!-- A pallet jack -->
+    <include>
+      <static>true</static>
+        <pose>-3 2 0 0 0 0</pose>
+      <uri>model://pallet_jack</uri>
+    </include>
+
+    
+    <!-- A parking column -->
+    <include>
+      <static>true</static>
+        <pose>4 -1 0 0 0 0</pose>
+      <uri>model://parking_column</uri>
+    </include>
+
+    <!-- A safety pole -->
+    <include>
+      <static>true</static>
+        <pose>-6 0 0 0 0 0</pose>
+      <uri>model://safety_pole</uri>
+    </include>
+    
+    <!-- A short ladder -->
+    <include>
+      <static>true</static>
+        <pose>0 -5 0 0 0 0</pose>
+      <uri>model://short_ladder</uri>
+    </include>
+
+
       <light name='sun'>
         <pose frame=''>0 0 10 0 -0 0</pose>
       </light>
