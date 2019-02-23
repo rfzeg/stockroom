@@ -12,11 +12,11 @@
       <uri>model://ground_plane</uri>
     </include>
     
-    <!-- A pallet jack -->
+    <!-- A grey_wall -->
     <include>
       <static>true</static>
         <pose>0 0 0 0 0 0</pose>
-      <uri>model://pallet_jack</uri>
+      <uri>model://grey_wall</uri>
     </include>
     
   </world>
