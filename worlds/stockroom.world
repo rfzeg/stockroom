@@ -28,6 +28,13 @@
       <uri>model://roll_up_door</uri>
     </include>
     
+        <!-- A hinged door -->
+    <include>
+      <static>true</static>
+        <pose>4 7 0 0 0 0</pose>
+      <uri>model://hinged_door</uri>
+    </include>
+    
     
  
     

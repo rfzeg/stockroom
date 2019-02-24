@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="tool_cabinet">
+    <static>true</static>
+    <link name="tool_cabinet_link">
+        <collision name="tool_cabinet_collision">  
+         <geometry>
+            <mesh>
+                <uri>model://tool_cabinet/meshes/model.dae</uri>
+                <scale>0.5 0.5 0.5</scale>
+            </mesh>
+        </geometry>
+      </collision>
+      
+      <visual name="tool_cabinet_mesh">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+            <mesh>
+                <uri>model://tool_cabinet/meshes/model.dae</uri>
+                <scale>0.5 0.5 0.5</scale>
+            </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

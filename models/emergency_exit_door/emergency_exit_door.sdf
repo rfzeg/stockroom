@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="emergency_exit_door">
+    <static>true</static>
+    <link name="emergency_exit_door_link">
+        <collision name="emergency_exit_door_collision">  
+         <geometry>
+            <mesh>
+                <uri>model://emergency_exit_door/meshes/model.dae</uri>
+                <scale>0.5 0.5 0.5</scale>
+            </mesh>
+        </geometry>
+      </collision>
+      
+      <visual name="emergency_exit_door_mesh">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+            <mesh>
+                <uri>model://emergency_exit_door/meshes/model.dae</uri>
+                <scale>0.5 0.5 0.5</scale>
+            </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

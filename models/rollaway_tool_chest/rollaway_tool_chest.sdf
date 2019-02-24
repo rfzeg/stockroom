@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="rollaway_tool_chest">
+    <static>true</static>
+    <link name="rollaway_tool_chest_link">
+        <collision name="rollaway_tool_chest_collision">  
+         <geometry>
+            <mesh>
+                <uri>model://rollaway_tool_chest/meshes/model.dae</uri>
+                <scale>0.5 0.5 0.5</scale>
+            </mesh>
+        </geometry>
+      </collision>
+      
+      <visual name="rollaway_tool_chest_mesh">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+            <mesh>
+                <uri>model://rollaway_tool_chest/meshes/model.dae</uri>
+                <scale>0.5 0.5 0.5</scale>
+            </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
