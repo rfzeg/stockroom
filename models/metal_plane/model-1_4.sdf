@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name="metal_plane">
+    <static>true</static>
+    <link name="metal_plane_link">
+      <collision name="metal_plane_collision">
+        <geometry>
+          <box>
+            <size>20 20 .1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="metal_plane_visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <box>
+            <size>20 20 .1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://metal_plane/materials/scripts</uri>
+            <uri>model://metal_plane/materials/textures</uri>
+            <name>vrc/metal</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
