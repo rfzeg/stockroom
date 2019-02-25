@@ -7,6 +7,7 @@
          <geometry>
             <mesh>
                 <uri>model://desktop/meshes/model.dae</uri>
+                   <scale>1.0 1.0 1.0</scale>
             </mesh>
         </geometry>
       </collision>
@@ -23,6 +24,7 @@
             <geometry>
               <box>
               <size>1.2 2 0.05</size>
+
             </box>
           </geometry>
      </collision>
@@ -31,6 +33,7 @@
         <geometry>
             <mesh>
                 <uri>model://desktop/meshes/model.dae</uri>
+                <scale>1.0 1.0 1.0</scale>
             </mesh>
         </geometry>
       </visual>
